@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset_"UTF-8"/>
+		<title>승환이의 홈페이지</title>
+	</head>
+		
+
+	<body>
+		<h1>welcome to my homepage</h1>
+		<!-- HTML 주석: 인라인 스타일시트 -->
+		
+	</body>
+</html>
