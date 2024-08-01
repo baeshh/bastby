@@ -1,0 +1,165 @@
+* {
+  font-family: "Noto Sans KR", sans-serif;
+  list-style: none;
+  text-decoration: none;
+  border-collapse: collapse;
+  margin: 0px;
+  padding: 0px;
+  color: #000;
+}
+.content1 {
+  font-size: 24px;
+}
+
+.content2 {
+  font-size: 15px;
+  font-weight: lighter;
+}
+.content1_bold {
+  font-size: 18px;
+  font-weight: bold;
+}
+.result {
+  font-size: 16px;
+}
+
+.intro_bg {
+  background-image: url("image/intro.png");
+  width: 100%;
+  height: 300px;
+}
+
+.header {
+  display: flex;
+  width: 1280px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.5);
+  height: 86px;
+}
+.searchArea {
+  width: 300px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  margin-top: 24px;
+}
+.searchArea > form > input {
+  border: none;
+  width: 200px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0);
+  color: #fff;
+  padding-left: 10px;
+}
+.searchArea > form > span {
+  width: 50px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  line-height: 86px;
+  width: calc(1280px);
+}
+
+.nav > li {
+  margin-left: 180px;
+}
+.nav > li > a {
+  color: white;
+  font-style: bold;
+}
+
+.amount {
+  position: relative;
+  top: -66px;
+  display: flex;
+  width: 1280ox;
+  background: white;
+  margin: auto;
+  box-shadow: 0px -10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+.amount > li > div {
+  text-align: center;
+  margin-top: 37px;
+  height: 57px;
+  border-right: 1px solid gray;
+}
+.amount > li > div:not(:last-child) > div {
+  border-right: 1px solid gray;
+}
+.amount > li {
+  flex: 1;
+  height: 132px;
+}
+
+/*main_text0*/
+
+.main_text0 {
+  width: 100%;
+  height: 601px;
+  background: #f1f2f3;
+  margin-top: -132px;
+}
+.main_text0 > h1 {
+  padding-top: 130px;
+  text-align: center;
+}
+.main_text0 > .content1 {
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  width: 1280;
+  margin: auto;
+}
+.icons > li {
+  height: 302px;
+  flex: 1;
+  background: white;
+  margin-top: 49px;
+  text-align: center;
+}
+.icons > li > .icon_img {
+  margin-top: 10px;
+}
+
+.icons > li:not(:last-child) {
+  margin-right: 20px;
+}
+
+.more {
+  width: 100px;
+  height: 30px;
+  background: blue;
+  color: white;
+  margin: 25px;
+  font-size: 12px;
+  line-height: 30px;
+}
+.main_text1 {
+  width: 100%;
+  height: 659px;
+}
+.main_text1 > h1 {z
+  text-align: center;
+}
+
+.main_text1 > .content1 {
+  text-align: center;
+}
+
+.service {
+  width: 1280px;
+  display: flex;
+  margin: auto;
+
+  height: 427px;
+}
+
+.content3 {
+  font-size: 50px;
+}
